@@ -16,7 +16,7 @@
 
 ## See them working together
 
-The [**reference app**](https://github.com/nest-native/reference-app) is a multi-tenant work-tracking SaaS that composes all six under realistic backend pressure: every task write emits domain events through the transactional outbox, consumers build an activity feed through the idempotent inbox over Kafka, the event contracts are published as an AsyncAPI catalog, and a streaming AI assistant summarizes the activity — one coherent journey, green tests, no Docker required for the default profile.
+The [**reference app**](https://github.com/nest-native/reference-app) is a multi-tenant work-tracking SaaS that composes the whole family under realistic backend pressure: every task write emits domain events through the transactional outbox, consumers build an activity feed through the idempotent inbox over Kafka, the event contracts are published as an AsyncAPI catalog, and a streaming AI assistant summarizes the activity — one coherent journey, green tests, no Docker required for the default profile.
 
 ## Principles
 
