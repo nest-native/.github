@@ -12,6 +12,7 @@
 | [`@nest-native/messaging`](https://github.com/nest-native/messaging) | Transactional outbox + idempotent inbox on Drizzle (SQLite/Postgres/MySQL), in-process or Kafka transport — solves the dual-write problem | [docs](https://nest-native.dev/messaging/) · [npm](https://www.npmjs.com/package/@nest-native/messaging) |
 | [`@nest-native/asyncapi`](https://github.com/nest-native/asyncapi) | AsyncAPI 3.0 documents for your event-driven API — decorators, Zod or JSON-Schema payloads, served UI | [docs](https://nest-native.dev/asyncapi/) · [npm](https://www.npmjs.com/package/@nest-native/asyncapi) |
 | [`@nest-native/ai-sdk`](https://github.com/nest-native/ai-sdk) | Streaming AI endpoints on the AI SDK (`ai@7`) — `@AiStream`, abort on client disconnect, request context in tools, offline test models | [docs](https://nest-native.dev/ai-sdk/) · [npm](https://www.npmjs.com/package/@nest-native/ai-sdk) |
+| [`@nest-native/jobs`](https://github.com/nest-native/jobs) | Background jobs without Redis — Drizzle-backed queue (SQLite/Postgres/MySQL), transactional enqueue, `@JobHandler` classes, retries/backoff | [docs](https://nest-native.dev/jobs/) · [npm](https://www.npmjs.com/package/@nest-native/jobs) |
 
 ## See them working together
 
