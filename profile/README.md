@@ -6,7 +6,6 @@
 
 | Package | What it does | |
 | --- | --- | --- |
-| [`@nest-native/drizzle`](https://github.com/nest-native/drizzle) | Drizzle ORM integration — repositories, transactions (`@Transactional` via nestjs-cls), named connections, bring-your-own driver | [docs](https://nest-native.dev/drizzle/) · [npm](https://www.npmjs.com/package/@nest-native/drizzle) |
 | [`@nest-native/trpc`](https://github.com/nest-native/trpc) | Typesafe APIs with tRPC v11 — `@Router`/`@Query`/`@Mutation`, guards/interceptors, generated `AppRouter`, SSE subscriptions, superjson | [docs](https://nest-native.dev/trpc/) · [npm](https://www.npmjs.com/package/@nest-native/trpc) |
 | [`@nest-native/kafka`](https://github.com/nest-native/kafka) | Kafka on Confluent's official JS client — `@KafkaConsumer`/`@KafkaHandler`, producer service, in-memory test broker | [docs](https://nest-native.dev/kafka/) · [npm](https://www.npmjs.com/package/@nest-native/kafka) |
 | [`@nest-native/messaging`](https://github.com/nest-native/messaging) | Transactional outbox + idempotent inbox on Drizzle (SQLite/Postgres/MySQL), in-process or Kafka transport — solves the dual-write problem | [docs](https://nest-native.dev/messaging/) · [npm](https://www.npmjs.com/package/@nest-native/messaging) |
@@ -15,6 +14,8 @@
 | [`@nest-native/jobs`](https://github.com/nest-native/jobs) | Background jobs without Redis — Drizzle-backed queue (SQLite/Postgres/MySQL), transactional enqueue, `@JobHandler` classes, retries/backoff | [docs](https://nest-native.dev/jobs/) · [npm](https://www.npmjs.com/package/@nest-native/jobs) |
 | [`@nest-native/cache`](https://github.com/nest-native/cache) | tag-based cache invalidation through the database you already have — in-memory L1, invalidation over Postgres `LISTEN`/`NOTIFY` (transactional: delivered on commit) or a same-machine socket mesh, on a zero-dep core (`@stalefree/core`) with optional Drizzle L2 stores; no Redis | [docs](https://nest-native.dev/cache/) · [npm](https://www.npmjs.com/package/@nest-native/cache) |
 | [`@nest-native/lockout`](https://github.com/nest-native/lockout) | django-axes-style login lockout — failure limits, tiered cooloff, `Retry-After`, on a zero-dep framework-agnostic core (`@authlock/core`) with atomic Drizzle stores (SQLite/Postgres/MySQL) | [docs](https://nest-native.dev/lockout/) · [npm](https://www.npmjs.com/package/@nest-native/lockout) |
+
+`@nest-native/drizzle` is retired: NestJS now ships its own Drizzle module, [`@nestjs/drizzle`](https://docs.nestjs.com/data/drizzle), and the [migration guide](https://nest-native.dev/drizzle/docs/migrate-to-nestjs-drizzle) maps every API to it.
 
 ## See them working together
 
